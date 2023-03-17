@@ -1,1 +1,30 @@
 // code your solution here
+
+//function saturdayFun(){
+    
+   // return "This Saturday, I want to roller-skate!"
+    
+//}
+
+
+//function mondayWork() {
+ //   return "This Monday, I will go to the office.";
+//
+
+//function wrapAdjective() {
+    
+//}
+function saturdayFun(activity = "roller-skate") {
+    return `This Saturday, I want to ${activity}!`;
+  }
+  
+  const mondayWork = function(activity = "go to the office") {
+    return `This Monday, I will ${activity}.`;
+  }
+  
+  function wrapAdjective(symbol = "*") {
+    return function(adjective = "special") {
+      return `You are ${symbol}${adjective}${symbol}!`;
+    }
+  }
+  
